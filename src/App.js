@@ -31,7 +31,7 @@ function App() {
   const addTask = (task) => {
     const id = Math.floor(Math.random() * 10) + 3
 
-    const newTask = {id, ...task}
+    const newTask = { id, ...task }
     setTasks([...tasks, newTask])
 
   }
@@ -53,7 +53,11 @@ function App() {
 
   return (
     <div className="container">
-      <Header title="Task Tracker" onAdd = {() => setShowAddTask(!showAddTask)} />
+      <Header
+        title="Task Tracker"
+        onAdd={() => setShowAddTask(!showAddTask)}
+        showAdd={showAddTask}         
+      />
       {showAddTask && <AddTask
         onAdd={addTask}
       />}
