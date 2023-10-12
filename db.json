@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Task 1",
+      "day": "Feb 5th 2023",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Task 2",
+      "day": "Jan 9th 2023",
+      "reminder": false
+    },
+    {
+      "text": "New Task",
+      "day": "some date",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "no",
+      "day": "as",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "TEst",
+      "day": "new date",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "asd",
+      "day": "ads",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}

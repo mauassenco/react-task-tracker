@@ -24,6 +24,33 @@ The task tracker app has the following features:
 * View task details
 * Dark mode
 
+## Usage
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run React dev server (http://localhost:3000)
+
+```
+npm start
+```
+
+### Run the JSON server (http://localhost:5000)
+
+```
+npm run server
+```
+
+### To build for production
+
+```
+npm run build
+```
+
+
 **Conclusion**
 
 I hope this task tracker app demonstrates my knowledge of the React library. I am always learning new things about React, and I am excited to continue using my skills to build innovative and user-friendly applications.
